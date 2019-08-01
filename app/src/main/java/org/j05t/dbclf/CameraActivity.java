@@ -140,7 +140,7 @@ public abstract class CameraActivity extends AppCompatActivity
           @Override
           public void onGlobalLayout() {
               gestureLayout.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-            
+
             //                int width = bottomSheetLayout.getMeasuredWidth();
             int height = gestureLayout.getMeasuredHeight();
 
